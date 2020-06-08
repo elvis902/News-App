@@ -2,64 +2,68 @@ package com.example.newsappdemo;
 
 public class News {
 
-    private String mTitle;
-    private String mDate;
-    private String mUrl;
-    private String mAuthor;
-    private String mSection;
+    String title;
+    String author;
+    String url;
+    String date;
+    String section;
 
-    public News(String title, String date, String url, String author, String section) {
-        mTitle = title;
-        mDate = date;
-        mUrl = url;
-        mAuthor = author;
-        mSection = section;
+    public News(String title, String author, String url, String date, String section) {
+        this.title = title;
+        this.author = author;
+        this.url = url;
+        this.date = date;
+        this.section = section;
     }
 
     public String getTitle() {
-        return mTitle;
+        return title;
     }
 
     public void setTitle(String title) {
-        mTitle = title;
-    }
-
-    public String getDate() {
-        return mDate;
-    }
-
-    public void setDate(String date) {
-        mDate = date;
-    }
-
-    public String getUrl() {
-        return mUrl;
-    }
-
-    public void setUrl(String url) {
-        mUrl = url;
+        this.title = title;
     }
 
     public String getAuthor() {
-        return mAuthor;
+        return author;
     }
 
     public void setAuthor(String author) {
-        mAuthor = author;
+        this.author = author;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
+
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
     }
 
     public String getSection() {
-        return mSection;
+        return section;
     }
 
     public void setSection(String section) {
-        mSection = section;
+        this.section = section;
     }
 
     @Override
     public String toString() {
-        return  " title "    + getTitle();
-
+        return "News{" +
+                "title='" + title + '\'' +
+                ", author='" + author + '\'' +
+                ", url='" + url + '\'' +
+                ", date='" + date + '\'' +
+                ", section='" + section + '\'' +
+                '}';
     }
-
 }
