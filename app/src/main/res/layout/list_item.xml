@@ -12,7 +12,7 @@
         android:id="@+id/title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        tools:text="This is going to be a long headline, I'm sure."
+        tools:text="This will be my Headline"
         style="@style/title"/>
 
     <TextView
