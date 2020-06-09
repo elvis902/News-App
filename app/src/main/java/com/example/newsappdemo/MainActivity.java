@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
     public static final String LOG_TAG = MainActivity.class.getName();
 
 //    SwipeRefreshLayout swipe;
-    public static final String API_KEY = "17c85ad5-8d65-4f3c-b613-1a956bf0be05";
+    public static final String API_KEY = "test";
     public static final String REQUEST_URL = "https://content.guardianapis.com/search?";
     private NewsAdapter adapter;
     /** TextView that is displayed when the list is empty */
