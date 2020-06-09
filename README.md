@@ -22,3 +22,6 @@ public static final String API_KEY = "YOUR-API-KEY";
 - HttpURLConnection
 - Uri
 ### Screenshots
+<img src="ScreenShots/MainActivity.jpg" height="650dp"/>     <img src="ScreenShots/SettingsActivity.jpg" height="650dp"/>
+<img src="ScreenShots/Fragment1.jpg" height="650dp"/>     <img src="ScreenShots/Fragment2.jpg" height="650dp"/>
+
